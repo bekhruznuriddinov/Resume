@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 16px;
+}
+
+body {
+    background-color: black;
+}
+
+main {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 100%;
+    max-width: 800px;
+    margin: auto;
+    background-color: white;
+}
+
+.section {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.name__container, .section__title {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    gap: 20px;
+    align-items: center;
+}
+
+.name {
+    color: black !important;
+    background-color: transparent !important;
+    text-decoration: none !important;
+    font-size: 25px !important;
+    border: none !important;
+}
+
+.title {
+    font-size: 20px !important;
+}
+
+.heading {
+    color: black;
+    background-color: white(60, 60, 60);
+    display: flex;
+    gap: 10px;
+    border-bottom: 2px solid;
+    white-space: nowrap;
+    align-items: center;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.subheading {
+    display: flex;
+    font-size: 18px;
+    white-space: nowrap;
+    align-items: center;
+}
+
+.contact__container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: left;
+    font-size: 16px;
+    padding-top: 0px;
+}
+
+.link {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    flex-wrap: nowrap;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgb(57, 129, 162);
+    color: white;
+}
+
+.line {
+    background-color: black;
+    height: .5px;
+    width: calc(100% - 40px);
+    margin: auto;
+}
+
+.body {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    list-style-type: none;
+    align-items: center;
+}
+
+.one {
+    padding: 10px;
+    border: 1px solid;
+    border-radius: 10px;
+    white-space: nowrap;
+}
+
+.wrap {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    border: 1px solid;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.exp {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.exp span {
+    white-space: nowrap;
+}
+
+.desc {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding-left: 20px;
+}
